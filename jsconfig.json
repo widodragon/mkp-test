@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/components/*": [
+                "src/*"
+            ],
+            "@/layout/*": [
+                "src/layout/*"
+            ],
+            "@/modules/*": [
+                "src/modules/*"
+            ],
+            "@/color":[
+                "src/modules/config/color.js"
+            ]
+        }
+    }
+}

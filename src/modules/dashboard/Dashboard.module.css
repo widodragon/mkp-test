@@ -1,0 +1,198 @@
+.header{
+    background-color: #3599e6;
+    height: 60px;
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.titleDashboard{
+    color: white;
+    font-size: 12px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    margin-right: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+.titleDashboard::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+.searchWrapper{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Slideshow */
+
+.slideshow{
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 95%;
+    border-radius: 10px;
+    position: relative;
+}
+  
+.slideshowSlider{
+    white-space: nowrap;
+    transition: ease 1000ms;
+}
+  
+.slide{
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+  
+  /* Buttons */
+  
+.slideshowDots{
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.slideshowButton{
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: #3599e6;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 0px 30px 0px 30px;
+    height: 30px;
+}
+
+.slideshowDot{
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+  
+    cursor: pointer;
+    margin: 5px 2px 0px;
+  
+    background-color: #cfcecc;
+}
+  
+.slideshowDotActive{
+    display: inline-block;
+    height: 5px;
+    width: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 5px 2px 0px;
+    background-color: white;
+}
+.historyPayment{
+    width: 95%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.boxHistory{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    cursor: pointer;
+}
+.textHistory{
+    font-size: 14px;
+    color:#3599e6;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.region{
+    overflow-x: scroll;
+    width: 95%;
+    margin: auto;
+    white-space: nowrap;
+}
+.productWrapper{
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.listProductWrapper{
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 95%;
+    margin: auto;
+}
+.itemRegion{
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    color: #cfcecc;
+    font-size: 13px;
+    cursor: pointer;
+    position: relative;
+}
+.regActive{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #3599e6;
+    left: 50%;
+    bottom:5px;
+}
+.labelProduct{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.cardProduct{
+    display: inline-block;
+    height: 210px;
+    width: 150px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+    box-shadow: 1px 1px #a3a2a0;
+    border-color: #dbd8d0;
+    border-style: solid;
+    border-width: 0.1px;
+}
+.flexItem{
+    display: flex;
+    flex-direction: column;
+}
+.cardSlide{
+    border-radius: 10px;
+}
